@@ -31,10 +31,4 @@ public class Player : MonoBehaviour
     {
         _inputDirection = context.ReadValue<Vector2>();
     }
-
-    private float test()
-    {
-        int i = 0;
-        return 0.1f;
-    }
 }
